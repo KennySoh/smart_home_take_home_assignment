@@ -70,9 +70,9 @@ and your ability to justify trade-offs than which specific choices you make.
    `DropOff`) it failed in? How does the system notice, and what does it do about the line
    that was waiting on that delivery? Include a **sequence diagram** walking through this
    failure-and-recovery flow step by step.
-5. **Scaling considerations** — Your design above targets 3 robots and 3 lines. Briefly
+5. **Scaling considerations** — Your design above targets 3 robots and 3 Stations. Briefly
    explain what would need to change (if anything) to scale it toward the real-world numbers
-   in the case study (22 robots, 10 lines).
+   in the case study (100 robots, 50 Stations).
 6. **Open questions / assumptions** — What would you want to clarify with a stakeholder
    (e.g. plant manager, operations team) before building this for real? What assumptions
    did you make in their absence?
@@ -136,12 +136,6 @@ Bring this document to the interview. Plan for roughly:
   assignment strategy, failure handling, scaling)
 - **~10 min** — we ask follow-up and "what if" questions (e.g. what if two robots go down
   at once, what if a line's request rate spikes, why not a different assignment strategy)
-
-Every candidate gets the same core set of follow-up questions, tailored only to the
-specific design they wrote — this keeps the bar consistent across candidates.
-
-We're not looking for a rehearsed script or a polished slide deck — a good conversation
-where you can reason on your feet about your own design is exactly what we want to see.
 
 ### How to Submit
 
